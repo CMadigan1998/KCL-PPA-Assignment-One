@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PropertyViewer
+comment0.text=\n\ This\ project\ implements\ a\ simple\ application.\ Properties\ from\ a\ fixed\n\ file\ can\ be\ displayed.\ \n\ \n\ \n\ @author\ Michael\ K\u00F6lling\ and\ Josh\ Murphy\n\ @version\ 1.0\n\ \n\ Modified\ by\ Charlie\ Madigan\ K19019003\n
+comment1.params=
+comment1.target=PropertyViewer()
+comment1.text=\n\ Create\ a\ PropertyViewer\ and\ display\ its\ GUI\ on\ screen.\n\ Also\ \n
+comment2.params=
+comment2.target=void\ nextProperty()
+comment2.text=\nThis\ function\ displays\ the\ details\ of\ the\ next\ property\ in\ the\ window\nThis\ is\ done\ but\ first\ increasing\ the\ property\ stored\ in\ a\ local\ variable\nthen\ checking\ to\ see\ if\ the\ index\ is\ in\ range\ of\ thre\ array\ list\nif\ it\ is,\ then\ the\ information\ is\ displayed,\ \nif\ not,\ an\ error\ message\ is\ written\ to\ the\ console\ and\ the\ user\ is\ returned\ to\ the\ previous\ property\ \ viewed.\n
+comment3.params=
+comment3.target=void\ previousProperty()
+comment3.text=\nThis\ function\ displays\ the\ details\ of\ the\ previously\ property\ in\ the\ window\nThis\ is\ done\ but\ first\ increasing\ the\ property\ stored\ in\ a\ local\ variable\nthen\ checking\ to\ see\ if\ the\ index\ is\ in\ range\ of\ thre\ array\ list\nif\ it\ is,\ then\ the\ information\ is\ displayed,\ \nif\ not,\ an\ error\ message\ is\ written\ to\ the\ console\ and\ the\ user\ is\ returned\ to\ the\ previous\ property\ \ viewed.\n
+comment4.params=
+comment4.target=void\ toggleFavourite()
+comment4.text=\n\ This\ function\ marks\ the\ property\ as\ either\ a\ favourite\ or\ not\n\ After\ this\ has\ been\ done,\ a\ tag\ is\ shown\ at\ the\ bottom\ of\ the\ window\ if\ the\ property\ is\ marked\ as\ a\ favourite\n
+comment5.params=
+comment5.target=void\ viewMap()
+comment5.text=\n\ This\ method\ opens\ the\ system's\ default\ internet\ browser\n\ The\ Google\ maps\ page\ should\ show\ the\ current\ properties\ location\ on\ the\ map.\n
+comment6.params=
+comment6.target=int\ getNumberOfPropertiesViewed()
+comment6.text=\n\ This\ method\ acts\ as\ a\ getter\ for\ the\ number\ of\ properties\ viewed\ field\n
+comment7.params=
+comment7.target=int\ averagePropertyPrice()
+comment7.text=\n\ This\ method\ calculates\ the\ average\ price\ of\ all\ viewed\ properties\ and\ then\ returns\ that\ value\n\ to\ the\ method\ that\ called\ it\n
+numComments=8
